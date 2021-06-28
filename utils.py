@@ -36,8 +36,8 @@ def check(table,player_1):
         if table[i,1] == n:
             if table[i,0] == n and table[i,2] == n:
                 ganador = True
-                return ganador
-    for i in range(3):
+                return ganador,n
+
         if table[1,i] == n:
             if table[0,i] == n and table[2,i] == n:
                 ganador = True
@@ -49,7 +49,7 @@ def check(table,player_1):
         if table[0,2] == n and table[2,0] == n:
             ganador = True
             return ganador,n
-    return 0,0
+    return False,0
 
 def write_o(screen,positions):
     pg.draw.circle(screen,[255,255,255],positions,size//5,3)
