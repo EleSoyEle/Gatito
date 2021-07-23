@@ -7,19 +7,14 @@ Lo hice mas que nada para hacer una IA que lo juege, antes tenia que hacer el ju
 Para poder ejecutar este codigo necesitas instalar las librerias necesarias.
 La mayoria ya vienen instaladas
 ```bash
-$ pip install pygame
+$ pip3 install pygame
 ```
 Copia el repositorio de github de el codigo y accede a el
 ```bash
-$ git clone https://github.com/zeusdh/Gatito.git
+$ git clone https://github.com/SrOppenheimer/Gatito.git
 $ cd Gatito/
 ```
-Ejecuta el codigo.
-En algunos casos es asi
-```bash
-$ python script.py
-```
-En otros sera asi
+El codigo funcion en python3
 ```
 $ python3 script.py
 ```
